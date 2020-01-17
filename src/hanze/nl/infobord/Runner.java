@@ -9,6 +9,9 @@ public class Runner {
 	}
 
     public static void main(String[] args) throws Exception {
-        thread(new ListenerStarter("(SELECTOR INVULLEN"),false);
+		System.out.println("START");
+		thread(new ListenerStarter("(halte='A') AND (richting='1')"),false);
+		thread(new ListenerStarter("(halte='G') AND (richting='1')"),false);
+        thread(new ListenerStarter("(halte='Z') AND (richting='1')"),false);
     }
 }

@@ -1,0 +1,5 @@
+{ ETA : {
+  halteNaam : "X",
+  richting: -1,
+  aankomstTijd: 10
+} }

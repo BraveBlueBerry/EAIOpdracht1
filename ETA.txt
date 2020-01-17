@@ -1,0 +1,5 @@
+<ETA>
+  <halteNaam>X</halteNaam>
+  <richting>-1</richting>
+  <aankomsttijd>10</aankomsttijd>
+</ETA>

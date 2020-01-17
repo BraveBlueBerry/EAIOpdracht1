@@ -100,6 +100,8 @@ public class Bus{
 	}
 
 	public void sendBericht(Bericht bericht){
+		Producer producer = new Producer();
+		producer.startSendingMessage(bericht);
 		//TODO verstuur een XML bericht naar de messagebroker.
 	}
 }

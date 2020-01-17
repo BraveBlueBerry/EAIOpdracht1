@@ -1,0 +1,14 @@
+<Bericht>
+<lijnNaam>LIJN1</lijnNaam>
+<eindpunt/>
+<bedrijf>ARRIVA</bedrijf>
+<busID>3LIJN1</busID>
+<tijd>15</tijd>
+<ETAs>
+<ETA>
+<halteNaam>G</halteNaam>
+<richting>1</richting>
+<aankomsttijd>0</aankomsttijd>
+</ETA>
+</ETAs>
+</Bericht>
