@@ -36,6 +36,16 @@ public class Producer {
         }
     }
 
+    public void sendBericht(String berichtRaw) {
+        try {
+            createConnection();
+            sendTextMessage(berichtRaw);
+            connection.close();
+        } catch (JMSException e) {
+            e.printStackTrace();
+        }
+    }
+
     private void sendMessage(Bericht bericht) throws JMSException {
         XStream xstream = new XStream();
         xstream.alias("Bericht", Bericht.class);

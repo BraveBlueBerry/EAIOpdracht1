@@ -36,7 +36,7 @@ public class QueueListener implements MessageListener {
         try {
             String JSONBericht = ((TextMessage)message).getText();
             InfoBord bord = InfoBord.getInfoBord();
-            InfoBord.verwerkBericht(JSONBericht);
+            InfoBord.verwerktBericht(JSONBericht);
             bord.setRegels();
         } catch (JMSException e) {
             e.printStackTrace();
